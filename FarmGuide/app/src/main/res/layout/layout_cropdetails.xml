@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">\
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/ivCropImg"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/tvCropData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/ivCropImg"
+                android:text="CROP NAME"
+                android:textStyle="bold"
+                android:textColor="#008577"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:id="@+id/tvCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCropData"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ivCropImg"
+                android:text="COST OF CULTIVATION"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/btnDemSup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCost"
+                android:layout_toRightOf="@id/ivCropImg"
+                android:text="Demand and Supply"
+                android:textAlignment="center"
+                android:background="#00FF00"
+                android:textColor="#FFFFFF"
+                />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

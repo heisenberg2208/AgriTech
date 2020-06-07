@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FarmGuide</string>
+    <string name="chats">chats</string>
+    <string name="showproducts">show products</string>
+    <string name="action_settings">Settings</string>
+    <string name="crop_selector">Crop Selector</string>
+    <string name="sowing_date">Sowing date</string>
+    <string name="sowing_advisory">Sowing Advisory</string>
+    <string name="disease_detector">Disease Detector</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="buying_selling">Buying Seling Portal</string>
+</resources>

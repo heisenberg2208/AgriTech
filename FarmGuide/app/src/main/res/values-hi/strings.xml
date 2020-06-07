@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">फरंगुइड </string>
+    <string name="chats">चैट</string>
+    <string name="showproducts"> दिखाएं</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="crop_selector">फसल चयन</string>
+    <string name="sowing_date">बीज बोने की तारीख</string>
+    <string name="sowing_advisory">बीज बोने   की सलाह</string>
+    <string name="disease_detector">रोग का पता लगाना</string>
+    <string name="chatbot">कृषी मित्र</string>
+    <string name="buying_selling">खरीदना बेचना</string>
+</resources>
